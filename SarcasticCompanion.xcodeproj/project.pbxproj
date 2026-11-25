@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08405CB772292A2B69F57A69 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D3DE5FF591C4C37E667780 /* StatusView.swift */; };
+		234D7A583D62EEC19C6437DA /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA5F6C77D76E60DA7D9B07 /* HealthManager.swift */; };
+		349487222E3AAEA3A7E5F6CE /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D3DE5FF591C4C37E667780 /* StatusView.swift */; };
+		86EA8EC51C8E7263E1AF8FFB /* SarcasticCompanionWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D766894FC6B60597927C0 /* SarcasticCompanionWatchApp.swift */; };
+		8E429B15D38EACB354A4C5C4 /* SarcasticCompanionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70BBF8E43B4E4E09431C44F /* SarcasticCompanionApp.swift */; };
+		AF17F2AE691B86B0F610F3F7 /* SarcasticCompanionWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28251EDAF38B5748F4B74328 /* SarcasticCompanionWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B77B90BBE957370E5A038FF7 /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFA5F6C77D76E60DA7D9B07 /* HealthManager.swift */; };
+		CDFDCB712A33C758E4A4F1D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C0609B89793F6FE22AB49C /* ContentView.swift */; };
+		F1C90025F8069921717C696D /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF62CA0EBE076F23382FC0D9 /* WorkoutManager.swift */; };
+		FF247158BFC8C491FCA6D03F /* WatchContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036701A0D2584210757C3473 /* WatchContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A2AE87618A202C73D4E2CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AF0BED91E4EEFA347B1D5D25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6BEB242766214BA6359A3B;
+			remoteInfo = SarcasticCompanionWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39E4824D89E1E25A17379DB9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				AF17F2AE691B86B0F610F3F7 /* SarcasticCompanionWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		036701A0D2584210757C3473 /* WatchContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchContentView.swift; sourceTree = "<group>"; };
+		0C7D766894FC6B60597927C0 /* SarcasticCompanionWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarcasticCompanionWatchApp.swift; sourceTree = "<group>"; };
+		12C0609B89793F6FE22AB49C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		188230D50EEA93E23E814AAE /* SarcasticCompanion.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SarcasticCompanion.entitlements; sourceTree = "<group>"; };
+		20CA4E463DABEA1254B59BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		28251EDAF38B5748F4B74328 /* SarcasticCompanionWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarcasticCompanionWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81D3DE5FF591C4C37E667780 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		8AAC01165FC7E812B40BEA8E /* SarcasticCompanionWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SarcasticCompanionWatch.entitlements; sourceTree = "<group>"; };
+		9E23E5C0675F3E3382D23C52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ABFA5F6C77D76E60DA7D9B07 /* HealthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthManager.swift; sourceTree = "<group>"; };
+		AF62CA0EBE076F23382FC0D9 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		E70BBF8E43B4E4E09431C44F /* SarcasticCompanionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarcasticCompanionApp.swift; sourceTree = "<group>"; };
+		F80A0F19604619823B794AC0 /* SarcasticCompanion.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = SarcasticCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0B6EC6C5A4DD4D11E674300D /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				ABFA5F6C77D76E60DA7D9B07 /* HealthManager.swift */,
+				81D3DE5FF591C4C37E667780 /* StatusView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		1639CE1594617C90B9579A9D /* SarcasticCompanionWatch */ = {
+			isa = PBXGroup;
+			children = (
+				9E23E5C0675F3E3382D23C52 /* Info.plist */,
+				8AAC01165FC7E812B40BEA8E /* SarcasticCompanionWatch.entitlements */,
+				0C7D766894FC6B60597927C0 /* SarcasticCompanionWatchApp.swift */,
+				036701A0D2584210757C3473 /* WatchContentView.swift */,
+				AF62CA0EBE076F23382FC0D9 /* WorkoutManager.swift */,
+			);
+			path = SarcasticCompanionWatch;
+			sourceTree = "<group>";
+		};
+		D241AA08E807FC1D5C92FB8C = {
+			isa = PBXGroup;
+			children = (
+				EAE1E8718AFEC4BD47CB4255 /* SarcasticCompanion */,
+				1639CE1594617C90B9579A9D /* SarcasticCompanionWatch */,
+				0B6EC6C5A4DD4D11E674300D /* Shared */,
+				F351B1F058CF99CC015412A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAE1E8718AFEC4BD47CB4255 /* SarcasticCompanion */ = {
+			isa = PBXGroup;
+			children = (
+				12C0609B89793F6FE22AB49C /* ContentView.swift */,
+				20CA4E463DABEA1254B59BA9 /* Info.plist */,
+				188230D50EEA93E23E814AAE /* SarcasticCompanion.entitlements */,
+				E70BBF8E43B4E4E09431C44F /* SarcasticCompanionApp.swift */,
+			);
+			path = SarcasticCompanion;
+			sourceTree = "<group>";
+		};
+		F351B1F058CF99CC015412A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80A0F19604619823B794AC0 /* SarcasticCompanion.app */,
+				28251EDAF38B5748F4B74328 /* SarcasticCompanionWatch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812A44359843372AF56EC2C5 /* SarcasticCompanion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94074DF9AE7D3F7432EB34ED /* Build configuration list for PBXNativeTarget "SarcasticCompanion" */;
+			buildPhases = (
+				F4A45085F44A8679ACB00170 /* Sources */,
+				39E4824D89E1E25A17379DB9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D2A49E900FFF26488AA2F7E /* PBXTargetDependency */,
+			);
+			name = SarcasticCompanion;
+			packageProductDependencies = (
+			);
+			productName = SarcasticCompanion;
+			productReference = F80A0F19604619823B794AC0 /* SarcasticCompanion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6BEB242766214BA6359A3B /* SarcasticCompanionWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E0C2F02A62729BE9BAEC9E1 /* Build configuration list for PBXNativeTarget "SarcasticCompanionWatch" */;
+			buildPhases = (
+				BFEAB44855FE49D0AE8F5DDC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SarcasticCompanionWatch;
+			packageProductDependencies = (
+			);
+			productName = SarcasticCompanionWatch;
+			productReference = 28251EDAF38B5748F4B74328 /* SarcasticCompanionWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF0BED91E4EEFA347B1D5D25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					812A44359843372AF56EC2C5 = {
+						DevelopmentTeam = L6LA2WNN36;
+						ProvisioningStyle = Automatic;
+					};
+					BD6BEB242766214BA6359A3B = {
+						DevelopmentTeam = L6LA2WNN36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D4D2AB4040896005117D3CFD /* Build configuration list for PBXProject "SarcasticCompanion" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D241AA08E807FC1D5C92FB8C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F351B1F058CF99CC015412A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812A44359843372AF56EC2C5 /* SarcasticCompanion */,
+				BD6BEB242766214BA6359A3B /* SarcasticCompanionWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFEAB44855FE49D0AE8F5DDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B77B90BBE957370E5A038FF7 /* HealthManager.swift in Sources */,
+				86EA8EC51C8E7263E1AF8FFB /* SarcasticCompanionWatchApp.swift in Sources */,
+				349487222E3AAEA3A7E5F6CE /* StatusView.swift in Sources */,
+				FF247158BFC8C491FCA6D03F /* WatchContentView.swift in Sources */,
+				F1C90025F8069921717C696D /* WorkoutManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A45085F44A8679ACB00170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDFDCB712A33C758E4A4F1D7 /* ContentView.swift in Sources */,
+				234D7A583D62EEC19C6437DA /* HealthManager.swift in Sources */,
+				8E429B15D38EACB354A4C5C4 /* SarcasticCompanionApp.swift in Sources */,
+				08405CB772292A2B69F57A69 /* StatusView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D2A49E900FFF26488AA2F7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6BEB242766214BA6359A3B /* SarcasticCompanionWatch */;
+			targetProxy = F3A2AE87618A202C73D4E2CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2BF725E7BD8C7E3454983726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SarcasticCompanion/SarcasticCompanion.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SarcasticCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sarcasticcompanion.SarcasticCompanion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8775FC85FB7287EBE47BC741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SarcasticCompanion/SarcasticCompanion.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SarcasticCompanion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sarcasticcompanion.SarcasticCompanion;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8864123F290281B364B8CB92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SarcasticCompanionWatch/SarcasticCompanionWatch.entitlements;
+				INFOPLIST_FILE = SarcasticCompanionWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sarcasticcompanion.SarcasticCompanion.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		D779915C6A1131072EDFF256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = L6LA2WNN36;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		E1508E1C4C558E4AE6BFB249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = L6LA2WNN36;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		F1502C77443FA685B1547017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SarcasticCompanionWatch/SarcasticCompanionWatch.entitlements;
+				INFOPLIST_FILE = SarcasticCompanionWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.sarcasticcompanion.SarcasticCompanion.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E0C2F02A62729BE9BAEC9E1 /* Build configuration list for PBXNativeTarget "SarcasticCompanionWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1502C77443FA685B1547017 /* Debug */,
+				8864123F290281B364B8CB92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		94074DF9AE7D3F7432EB34ED /* Build configuration list for PBXNativeTarget "SarcasticCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF725E7BD8C7E3454983726 /* Debug */,
+				8775FC85FB7287EBE47BC741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D4D2AB4040896005117D3CFD /* Build configuration list for PBXProject "SarcasticCompanion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D779915C6A1131072EDFF256 /* Debug */,
+				E1508E1C4C558E4AE6BFB249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF0BED91E4EEFA347B1D5D25 /* Project object */;
+}
